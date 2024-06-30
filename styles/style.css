@@ -1,0 +1,15 @@
+
+/* flex korle 1 line e ase */
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav{
+    display: flex; 
+}
+nav li{
+    display: inline;
+    text-decoration: none;
+    
+}
