@@ -60,6 +60,7 @@ nav{
     background-repeat: no-repeat;
     background-position: bottom right;
     margin: 0 10px;
+    border-radius: 5px;
 }
 
 .banner{
@@ -113,4 +114,15 @@ nav{
     color: #757575;
     text-align: center;
     font-size: 18px;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about-info-description{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
