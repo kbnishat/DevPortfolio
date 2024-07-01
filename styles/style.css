@@ -1,15 +1,116 @@
 
-/* flex korle 1 line e ase */
+/* flex  1 line e ase */
 body{
-    font-family: 'Courier New', Courier, monospace;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Lato',sans-serif;
+    font-family:'Open Sans' sans-serif;
 }
 
-nav{
+nav  {
     display: flex; 
 }
+
 nav li{
     display: inline;
     text-decoration: none;
     
+}
+.nav-title{
+    color: #181818;  
+    font-size: 45px;
+    font-weight: 800px;
+    line-height: normal;
+}
+nav>ul{
+    display: flex;
+    align-items: center;
+}
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+     color: #474747;  
+}
+
+.mary{
+    color: #fd6e0a;
+}
+.btn{
+    border-radius: 5px;
+    background: #fd6e0a;
+    border: 0;
+    color: white;
+    font-size : 20px;
+    font-weight : 700;
+    padding: 15px 35px;
+
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+.header{
+    background-color:#FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    margin: 0 10px;
+}
+
+.banner{
+    padding: 30px 30px  0px 150px;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-greeding{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+
+}
+
+.banner-mary{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+
+.banner .image{
+    width: 500px;
+}
+
+.banner-content{
+     max-width: 500px; 
+}
+.b-description{
+    margin-top: 0px;
+    margin-bottom: 15px;
+    color: #474747;
+    
+}
+/* margin bahire padding vitore */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #fff8f3;
+    margin: 130px 10px;
+}
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
 }
